@@ -1,0 +1,14 @@
+{
+  "name": "@botmux-ai/plugin-market",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static marketplace index for botmux plugins.",
+  "type": "module",
+  "scripts": {
+    "build": "node ./scripts/validate.mjs --write",
+    "validate": "node ./scripts/validate.mjs --check",
+    "test": "npm run validate"
+  },
+  "license": "MIT"
+}
+

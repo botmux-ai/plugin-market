@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/botmux-ai/plugin-market/schema/plugin-entry.schema.json",
+  "title": "Botmux Plugin Market Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "package", "displayName", "description", "repo", "categories", "compatibility"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9._-]{0,63}$"
+    },
+    "package": {
+      "type": "string",
+      "minLength": 1
+    },
+    "displayName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "repo": {
+      "type": "string",
+      "format": "uri"
+    },
+    "docs": {
+      "type": "string",
+      "format": "uri"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]{0,31}$"
+      },
+      "uniqueItems": true
+    },
+    "compatibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["botmux"],
+      "properties": {
+        "botmux": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
+
