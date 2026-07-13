@@ -1,0 +1,15 @@
+{
+  "id": "agent-chrome",
+  "package": "@botmux-ai/plugin-agent-chrome",
+  "displayName": "Agent Chrome",
+  "description": "Shared Chrome automation with session-isolated MCP tools, noVNC views, and a managed Botmux service.",
+  "repo": "https://github.com/botmux-ai/botmux-plugin-agent-chrome",
+  "docs": "https://github.com/botmux-ai/botmux-plugin-agent-chrome#readme",
+  "categories": [
+    "browser",
+    "mcp"
+  ],
+  "compatibility": {
+    "botmux": ">=0.0.0"
+  }
+}

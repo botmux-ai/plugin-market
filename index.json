@@ -1,6 +1,51 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "plugins": []
+  "generatedAt": "2026-07-13T06:20:58.312Z",
+  "plugins": [
+    {
+      "id": "agent-chrome",
+      "package": "@botmux-ai/plugin-agent-chrome",
+      "displayName": "Agent Chrome",
+      "description": "Shared Chrome automation with session-isolated MCP tools, noVNC views, and a managed Botmux service.",
+      "repo": "https://github.com/botmux-ai/botmux-plugin-agent-chrome",
+      "docs": "https://github.com/botmux-ai/botmux-plugin-agent-chrome#readme",
+      "categories": [
+        "browser",
+        "mcp"
+      ],
+      "compatibility": {
+        "botmux": ">=0.0.0"
+      }
+    },
+    {
+      "id": "demo-addon",
+      "package": "@botmux-ai/plugin-demo-addon",
+      "displayName": "Demo Addon",
+      "description": "Full-surface Botmux plugin example with dependency checks, CLI, Skill, MCP, Dashboard, and service integration.",
+      "repo": "https://github.com/botmux-ai/botmux-plugin-demo",
+      "docs": "https://github.com/botmux-ai/botmux-plugin-demo#readme",
+      "categories": [
+        "demo",
+        "mcp"
+      ],
+      "compatibility": {
+        "botmux": ">=0.0.0"
+      }
+    },
+    {
+      "id": "demo-base",
+      "package": "@botmux-ai/plugin-demo-base",
+      "displayName": "Demo Base",
+      "description": "Base Botmux plugin example with CLI commands, configuration, and a stdio MCP server.",
+      "repo": "https://github.com/botmux-ai/botmux-plugin-demo",
+      "docs": "https://github.com/botmux-ai/botmux-plugin-demo#readme",
+      "categories": [
+        "demo",
+        "mcp"
+      ],
+      "compatibility": {
+        "botmux": ">=0.0.0"
+      }
+    }
+  ]
 }
-

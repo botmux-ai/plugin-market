@@ -1,0 +1,15 @@
+{
+  "id": "demo-base",
+  "package": "@botmux-ai/plugin-demo-base",
+  "displayName": "Demo Base",
+  "description": "Base Botmux plugin example with CLI commands, configuration, and a stdio MCP server.",
+  "repo": "https://github.com/botmux-ai/botmux-plugin-demo",
+  "docs": "https://github.com/botmux-ai/botmux-plugin-demo#readme",
+  "categories": [
+    "demo",
+    "mcp"
+  ],
+  "compatibility": {
+    "botmux": ">=0.0.0"
+  }
+}
