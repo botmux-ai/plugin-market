@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-13T06:20:58.312Z",
+  "generatedAt": "2026-11-10T04:39:34.172Z",
   "plugins": [
     {
       "id": "agent-chrome",
@@ -45,6 +45,21 @@
       ],
       "compatibility": {
         "botmux": ">=0.0.0"
+      }
+    },
+    {
+      "id": "gateway-acceleration",
+      "package": "@xinna/botmux-plugin-ferry-gateway",
+      "displayName": "botmux FERRY 网关插件",
+      "description": "仅限已有字节内部 FERRY 权限的用户，为 Codex/TraeX 提供 GPT 模型匹配、模型转发与同模型加速；不包含 FERRY 本体或登录凭据。",
+      "repo": "https://github.com/xinna2001/botmux-plugin-ferry-gateway",
+      "docs": "https://github.com/xinna2001/botmux-plugin-ferry-gateway#readme",
+      "categories": [
+        "ai",
+        "gateway"
+      ],
+      "compatibility": {
+        "botmux": ">=3.58.0"
       }
     }
   ]
