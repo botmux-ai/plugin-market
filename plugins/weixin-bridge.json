@@ -1,0 +1,12 @@
+{
+  "id": "weixin-bridge",
+  "package": "@fangyeqing/botmux-plugin-weixin-bridge",
+  "displayName": "Weixin Bridge",
+  "description": "Connect personal WeChat text chats to Botmux with QR pairing, per-user sessions and durable message queues.",
+  "repo": "https://github.com/fangyeqing/botmux-plugin-weixin-bridge",
+  "docs": "https://github.com/fangyeqing/botmux-plugin-weixin-bridge#readme",
+  "categories": ["integration", "messaging"],
+  "compatibility": {
+    "botmux": ">=3.56.0"
+  }
+}

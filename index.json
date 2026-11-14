@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-13T06:20:58.312Z",
+  "generatedAt": "2026-11-14T08:40:48.121Z",
   "plugins": [
     {
       "id": "agent-chrome",
@@ -45,6 +45,21 @@
       ],
       "compatibility": {
         "botmux": ">=0.0.0"
+      }
+    },
+    {
+      "id": "weixin-bridge",
+      "package": "@fangyeqing/botmux-plugin-weixin-bridge",
+      "displayName": "Weixin Bridge",
+      "description": "Connect personal WeChat text chats to Botmux with QR pairing, per-user sessions and durable message queues.",
+      "repo": "https://github.com/fangyeqing/botmux-plugin-weixin-bridge",
+      "docs": "https://github.com/fangyeqing/botmux-plugin-weixin-bridge#readme",
+      "categories": [
+        "integration",
+        "messaging"
+      ],
+      "compatibility": {
+        "botmux": ">=3.56.0"
       }
     }
   ]
