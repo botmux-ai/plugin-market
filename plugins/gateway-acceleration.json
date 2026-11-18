@@ -1,0 +1,10 @@
+{
+  "id": "gateway-acceleration",
+  "package": "@xinna/botmux-plugin-ferry-gateway",
+  "displayName": "botmux FERRY 网关插件",
+  "description": "固定 GPT 同模型加速、有限重试与会话线路沿用。仅限已开通内部 FERRY 权限的用户；完整旧会话管理另需宿主 resume-target/prepare/park 能力，不包含上游程序或个人凭据。",
+  "repo": "https://github.com/xinna2001/botmux-plugin-ferry-gateway",
+  "docs": "https://github.com/xinna2001/botmux-plugin-ferry-gateway/blob/main/gateway/README.md",
+  "categories": ["productivity"],
+  "compatibility": { "botmux": ">=3.59.18-0" }
+}
